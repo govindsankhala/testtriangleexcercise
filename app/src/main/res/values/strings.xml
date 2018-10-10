@@ -2,4 +2,8 @@
     <string name="app_name">WeatherForecast</string>
     <string name="action_settings">Settings</string>
     <string name="error_method_not_implemented">Method not implemented as it is not using local storage.</string>
+    <string name="day_n_time"><![CDATA[Day & Time]]></string>
+    <string name="temp_min_max">%1$s° \nMin %2$s°\nMax %3$s°</string>
+    <string name="wind_speed_angle">Speed %1$s\nAngle %2$s</string>
+    <string name="weather_main_description">Main %1$s\nDetails %2$s</string>
 </resources>

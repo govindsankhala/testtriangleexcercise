@@ -17,21 +17,21 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class DashboardRemoteDataSource implements WeatherDataSource {
+public class WeatherRemoteDataSource implements WeatherDataSource {
 
     @SuppressWarnings("unused")
     private final String TAG = this.getClass().getName();
-    private static DashboardRemoteDataSource instance;
+    private static WeatherRemoteDataSource instance;
     @SuppressWarnings("unused")
     private Context context;
 
-    private DashboardRemoteDataSource(@NonNull Context context) {
+    private WeatherRemoteDataSource(@NonNull Context context) {
         this.context = context;
     }
 
-    public static DashboardRemoteDataSource getInstance(@NonNull Context context) {
+    public static WeatherRemoteDataSource getInstance(@NonNull Context context) {
         if (instance == null) {
-            instance = new DashboardRemoteDataSource(context);
+            instance = new WeatherRemoteDataSource(context);
         }
         return instance;
     }
