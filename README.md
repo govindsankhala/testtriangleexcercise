@@ -7,5 +7,5 @@ Application uses mvp clean architecuture.
 # Run
 Clone the repository to the system. Open the Android studio and import the project. Build the application. Once build is successful run the application.
 
-# Backend api calling
+# Others
 Application used retrofit and rx-java for backend api calling. It uses gson for json to POJO creation. 
