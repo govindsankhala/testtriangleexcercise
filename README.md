@@ -1,5 +1,5 @@
 # Scope
-App to demonstrate consuming weather forecasting api and display data in app.
+Application consumes weather forecasting api(openweathermap) and display data in app. So far it displays the data in only text format.
 
 # Architecture
 Application uses mvp clean architecuture.
